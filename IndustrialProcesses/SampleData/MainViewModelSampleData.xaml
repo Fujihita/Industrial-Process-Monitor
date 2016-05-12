@@ -1,0 +1,13 @@
+﻿<vm:MainViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:IndustrialProcesses.ViewModels"
+    SampleProperty="Sample Text Property Value">
+
+    <vm:MainViewModel.Items>
+        <vm:ItemViewModel path="/tank1" description="Füllstand Tank 1 (in Liter)" value = "203" type = "[float]" min="200" max="260" />
+        <vm:ItemViewModel path="/tank2" description="Füllstand Tank 2 (in Liter)" value = "503" type = "[float]" min="500" max="560"/>
+        <vm:ItemViewModel path="/tank3" description="Füllstand Tank 3 (in Liter)" value = "1004" type = "[float]" min="1000" max="1007.5"/>
+    </vm:MainViewModel.Items>
+
+</vm:MainViewModel>
